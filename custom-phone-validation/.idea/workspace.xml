@@ -5,105 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821aee09-3de3-487b-ab70-81029096f2b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../M4-Data_Binding_Form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-ORM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/configuration/AppInitiallizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/PhoneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/PhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/validation-message.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-management" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-management-orm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-management-orm-config-by-xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/configuration/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/configuration/AppInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/controller/ProvinceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/formatter/ProvinceFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/model/Province.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/repository/ICustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/repository/IProvinceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/service/IGeneralService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/service/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/service/customer/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/service/province/IProvinceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/java/com/codegym/cms/service/province/ProvinceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/WEB-INF/views/error.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/WEB-INF/views/province/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/WEB-INF/views/province/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/WEB-INF/views/province/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/WEB-INF/views/province/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/WEB-INF/views/province/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../customer-manager-repository/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/java/com/codegym/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/java/com/codegym/config/AppInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/java/com/codegym/controller/SongController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/java/com/codegym/model/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/java/com/codegym/model/SongSubmitForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/java/com/codegym/service/SongService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/java/com/codegym/service/impl/HibernateSongServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/resources/hibernate.conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/resources/upload_file.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music-application-orm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../validate-infor-user/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../validate-infor-user/src/main/java/com/codegym/configuration/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../validate-infor-user/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../validate-infor-user/src/main/java/com/codegym/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../validate-infor-user/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../validate-infor-user/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-greeting/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greeting/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-greeting/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greeting/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-greeting/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greeting/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-greeting/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greeting/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-greeting/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-greeting/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upload-file/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../upload-file/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upload-file/src/main/resources/upload_file.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../upload-file/src/main/resources/upload_file.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-ORM" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-ORM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-management-orm" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-management-orm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-management-orm-config-by-xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-management-orm-config-by-xml~HEAD" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-management-orm-config-by-xml~HEAD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +33,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -247,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666680364994</updated>
-      <workItem from="1666680366819" duration="1299000" />
+      <workItem from="1666680366819" duration="1655000" />
     </task>
     <servers />
   </component>
