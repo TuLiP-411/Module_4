@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head">
+</head>
+<body>
+<h3>Music Listening Website</h3>
+<p>
+  <a th:href="@{/music/create}">
+   Upload new song
+  </a>
+</p>
+<table id = "songs">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Artist</th>
+    <th>Genre</th>
+    <th>Play</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="song : ${songs}">
+    <td th:text="${song.name}"></td>
+    <td th:text="${song.artist}"></td>
+    <td th:text="${song.genre}"></td>
+    <td>  <div class="playpause">
+      <input th:src="@{'/storage/' + ${song.song}}" type="checkbox" value="None" id="playpause" name="check" />
+      <label for="playpause" tabindex=1></label>
+    </div>
+    </td>
+
+
+  </tr>
+  </tbody>
+</table>
+<footer th:replace="/layout :: footer"></footer>
+</body>
+</html>
