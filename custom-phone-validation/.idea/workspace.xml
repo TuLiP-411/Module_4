@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821aee09-3de3-487b-ab70-81029096f2b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../user-signup-validate-form/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-signup-validate-form/src/main/java/com/codegym/configuration/AppInitiallizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-signup-validate-form/src/main/java/com/codegym/controller/FormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-signup-validate-form/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-signup-validate-form/src/main/resources/validation-message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-signup-validate-form/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-signup-validate-form/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring-ORM" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-ORM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../customer-management-orm" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-management-orm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer-management-orm-config-by-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer-management-orm-config-by-xml~HEAD" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-management-orm-config-by-xml~HEAD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666680364994</updated>
-      <workItem from="1666680366819" duration="1655000" />
+      <workItem from="1666680366819" duration="5661000" />
     </task>
     <servers />
   </component>
