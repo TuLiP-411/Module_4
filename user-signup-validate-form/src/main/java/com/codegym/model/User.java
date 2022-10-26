@@ -103,7 +103,7 @@ public class User implements Validator {
         }
 
         String email = user.getEmail();
-        if (!number.matches("(^[a-zA-Z0-9]@[a-z]\\.[a-z]$)")) {
+        if (!email.matches("(^[a-zA-Z0-9]@[a-z]\\.[a-z]$)")) {
             errors.rejectValue("email", "email.matches");
         }
     }
