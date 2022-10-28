@@ -21,10 +21,16 @@
     <tr th:each="product: ${cart.products}">
       <td th:text="${product.getKey().name}"></td>
       <td>
-        <a id="decrease_button" th:text="${'-'}"></a>
+<!--        <a id="decrease_button" th:text="${'-'}"></a>-->
+<!--        <span th:text="${product.getValue()}"></span>-->
+<!--        <a id="increase_button" th:href="@{/add/__${product.getKey().id}__(action='show')}"-->
+<!--           th:text="${'+'}"></a>-->
         <span th:text="${product.getValue()}"></span>
-        <a id="increase_button" th:href="@{/add/__${product.getKey().id}__(action='show')}"
-           th:text="${'+'}"></a>
+          <select name="item" id="quantity" th:each="product:${product}">
+
+            <option th:text="${product.quantity}"value="volvo">Volvo</option>
+
+          </select>
       </td>
       <td th:text="${product.getKey().price}"></td>
     </tr>
