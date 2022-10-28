@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit category</title>
+</head>
+<body>
+<h3>Edit form</h3>
+<a href="/categories">Back to list</a>
+<div th:if="${message}">
+    <p style="color:green" th:text="${message}"></p>
+</div>
+<form th:action="@{/categories/edit}" th:object="${category}" method="post">
+    <input type="hidden" th:field="*{id}">
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td >
+                <input type="text" th:field="*{name}">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button>Edit</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
