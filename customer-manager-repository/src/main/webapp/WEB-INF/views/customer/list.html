@@ -2,18 +2,18 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title th:text="#{customer.list}"></title>
 </head>
 <body>
-<a href="/create-customer">Create new customer</a>
+<a href="/create-customer" th:value="#{create.customer}"></a>
 <h1>Customers</h1>
 <table border="1">
   <tr>
-    <th>First name</th>
-    <th>Last name</th>
-    <th>Province</th>
-    <th>Edit</th>
-    <th>Delete</th>
+    <th th:text="#{first.name}"></th>
+    <th th:text="#{last.name}"></th>
+    <th th:text="#{province}"></th>
+    <th th:text="#{edit.button}"></th>
+    <th th:text="#{delete.button}"></th>
   </tr>
   <th:block th:each="customer : ${customers}">
     <tr>
@@ -21,8 +21,8 @@
       <td th:text="${customer.lastName}"></td>
       <td th:if="${customer.province}" th:text="${customer.province.name}"></td>
       <td th:unless="${customer.province}"></td>
-      <td><a th:href="@{/edit-customer/__${customer.id}__ }">Edit</a></td>
-      <td><a th:href="@{/delete-customer/__${customer.id}__ }">Delete</a></td>
+      <td><a th:href="@{/edit-customer/__${customer.id}__ }" th:text="#{edit.button}"></a></td>
+      <td><a th:href="@{/delete-customer/__${customer.id}__ }" th:text="#{delete.button}"></a></td>
     </tr>
   </th:block>
 </table>

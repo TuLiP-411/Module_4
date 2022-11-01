@@ -12,6 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/smartphones")
+@CrossOrigin("*")
 public class SmartphoneController {
     @Autowired
     private ISmartphoneService smartphoneService;
@@ -41,5 +42,15 @@ public class SmartphoneController {
         }
         smartphoneService.remove(id);
         return new ResponseEntity<>(smartphoneOptional.get(), HttpStatus.NO_CONTENT);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Smartphone> updateSmartphone(@PathVariable Long id, @RequestBody Smartphone smartphone) {
+        Optional<Smartphone> smartPhoneOptional = smartphoneService.findById(id);
+        if (!smartPhoneOptional.isPresent()) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        smartphone.setId(smartPhoneOptional.get().getId());
+        return new ResponseEntity<>(smartphoneService.save(smartphone), HttpStatus.OK);
     }
 }

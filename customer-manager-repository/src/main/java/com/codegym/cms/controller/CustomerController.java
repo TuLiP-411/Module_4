@@ -5,6 +5,7 @@ import com.codegym.cms.model.Province;
 import com.codegym.cms.service.customer.ICustomerService;
 import com.codegym.cms.service.province.IProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -16,7 +17,8 @@ import java.util.Optional;
 
 @Controller
 public class CustomerController {
-
+@Value("${message.created.success}")
+private String message;
     @Autowired
     private ICustomerService customerService;
 
@@ -41,7 +43,7 @@ public class CustomerController {
         customerService.save(customer);
         ModelAndView modelAndView = new ModelAndView("/customer/create");
         modelAndView.addObject("customer", new Customer());
-        modelAndView.addObject("message", "New customer created successfully");
+        modelAndView.addObject("message", "Customer has been created successfully");
         return modelAndView;
     }
 

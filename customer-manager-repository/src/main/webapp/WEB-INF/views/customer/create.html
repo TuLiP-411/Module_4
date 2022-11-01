@@ -2,28 +2,29 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
-  <title>Create customer</title>
+  <title th:text="#{customer.title}"></title>
 </head>
 <body>
-<h1>Create customer</h1>
+<h1 th:text="#{customer.heading}"></h1>
 <p>
-  <a href="/customers">Customer list</a>
+  <a href="/customers" th:text="#{customer.list}"></a>
 </p>
+Language: <a href="?lang=en">English</a> | <a href="?lang=vi">Vietnamese</a>
 <th:block th:if="${message}">
   <p th:text="${message}"></p>
 </th:block>
 <form th:action="@{/create-customer}" th:object="${customer}" method="post">
   <table>
     <tr>
-      <td>First name:</td>
+      <td th:text="#{first.name}"></td>
       <td><input type="text" th:field="*{firstName}"/></td>
     </tr>
     <tr>
-      <td>Last name:</td>
+      <td th:text="#{last.name}"></td>
       <td><input type="text" th:field="*{lastName}"/></td>
     </tr>
     <tr>
-      <td>Province:</td>
+      <td th:text="#{province}"></td>
       <td>
         <select th:field="*{province}">
 
@@ -33,7 +34,7 @@
     </tr>
     <tr>
       <td></td>
-      <td><input type="submit" value="Create customer"></td>
+      <td><input type="submit" th:value="#{create.customer}"></td>
     </tr>
   </table>
 </form>
